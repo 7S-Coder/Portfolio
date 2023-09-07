@@ -1,0 +1,30 @@
+@import "../variables";
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: $color-black;
+  color: $color-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 30px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    span,
+    a {
+      color: $color-white;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    a {
+      margin-left: 10px;
+    }
+  }
+}
