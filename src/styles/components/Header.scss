@@ -1,0 +1,51 @@
+@import "../variables";
+@import "../placeholders";
+
+header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: $color-white;
+  color: $color-black;
+  justify-content: center;
+
+  .logo {
+    position: absolute;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    p {
+      margin: 0;
+    }
+  }
+
+  nav {
+    display: flex;
+    width: $max-width;
+    @extend %centered;
+    justify-content: right;
+
+    ul {
+      display: flex;
+      list-style: none;
+      a {
+        color: $color-black;
+        text-decoration: none;
+      }
+
+      li {
+        padding: 0 5px;
+      }
+
+      .active {
+        color: $color-link;
+        font-weight: bold;
+      }
+    }
+  }
+}
