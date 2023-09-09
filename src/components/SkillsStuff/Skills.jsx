@@ -1,6 +1,6 @@
 import "../../styles/components/Skills.scss";
 
-const Skills = ({ title, skills }) => {
+const Skills = ({ title, skills, github }) => {
   return (
     <ul className="skills">
       <li className="skills_block">
@@ -9,6 +9,13 @@ const Skills = ({ title, skills }) => {
           {skills.map((skill, skillIndex) => (
             <li key={skillIndex}>{skill}</li>
           ))}
+          {github && (
+            <li>
+              <a href={github.link} target="blanck">
+                {github.title}
+              </a>
+            </li>
+          )}
         </ul>
       </li>
     </ul>

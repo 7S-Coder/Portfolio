@@ -4,7 +4,11 @@
     "skills": [
       "Intégrer du contenu conformément à une maquette avec HTML et CSS",
       "Implémenter une interface responsive avec HTML et CSS"
-    ]
+    ],
+    "github": {
+      "title": "Interface du site Booki",
+      "link": "https://github.com/7S-Coder/Booki.git"
+    }
   },
 
   {
@@ -26,7 +30,11 @@
       "Optimiser les performances d’un site web",
       "Débugger un site web grâce aux Chrome DevTools",
       "Rédiger un cahier de recette pour tester un site"
-    ]
+    ],
+    "github": {
+      "title": "Portfolio de Nina Carducci",
+      "link": "https://github.com/7S-Coder/Portfolio-Nina-Carducci.git"
+    }
   },
 
   {
