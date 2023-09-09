@@ -6,8 +6,9 @@ const Footer = () => {
       <div>
         <a href="https://github.com/7S-Coder" target="blank">
           <img src="src\assets\svg\github.svg" alt="logo Github" />
-          <a>7S-Coder</a>
+          7S-Coder
         </a>
+
         <span> Powered by Sept.</span>
       </div>
     </footer>

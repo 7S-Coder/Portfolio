@@ -1,0 +1,28 @@
+@import "../variables";
+@import "../placeholders";
+
+.skills {
+  list-style-type: none;
+  background-color: $color-beige;
+  margin-top: 10vh;
+  .skills_block {
+    border: 2px solid $color-black;
+    border-radius: $lil-radius;
+  }
+
+  .skills_list {
+    background-color: $color-black;
+    padding: 8px 0;
+  }
+
+  h2 {
+    color: $color-black;
+  }
+
+  li {
+    list-style-type: none;
+    li:hover {
+      text-decoration: underline;
+    }
+  }
+}
