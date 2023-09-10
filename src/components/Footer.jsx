@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <footer>
       <div>
-        <Link to="https://github.com/7S-Coder" target="blank">
+        <a href="https://github.com/7S-Coder" target="blank">
           <img src="src\assets\svg\github.svg" alt="logo Github" />
           7S-Coder
-        </Link>
+        </a>
       </div>
     </footer>
   );
