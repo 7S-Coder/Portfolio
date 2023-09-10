@@ -1,4 +1,6 @@
+import Gallery from "../components/Gallery";
+
 const Work = () => {
-  return;
+  return <Gallery />;
 };
 export default Work;

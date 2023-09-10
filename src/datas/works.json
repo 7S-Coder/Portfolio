@@ -1,0 +1,12 @@
+[
+  {
+    "cover": "booki.png",
+    "title": "Booki",
+    "github": {
+      "title": "repo Booki",
+      "link": "https://github.com/7S-Coder/Booki.git"
+    },
+    "tools": ["html5", "CSS3", "git"],
+    "skills": ["Intégration web", "CSS", "flexbox", "Figma"]
+  }
+]

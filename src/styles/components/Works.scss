@@ -1,0 +1,36 @@
+@import "../variables";
+@import "../mixins";
+@import "../placeholders";
+
+.works {
+  width: 20.833333333333332vw;
+  height: 41.53686396677051vh;
+}
+
+.works {
+  border-radius: $lil-radius;
+  transition: transform 1000ms;
+  color: $color-black;
+  text-align: left;
+  padding-left: 0.1vw;
+  display: flex;
+  align-items: last baseline;
+  &:hover {
+    @extend %transform-effect;
+  }
+
+  .worksPic {
+    position: absolute;
+    width: 20vw;
+    height: 41vh;
+  }
+
+  h2 {
+    z-index: 50;
+    margin-left: 0.2vw;
+    padding: 4px;
+    background-color: $color-white;
+    color: $color-link;
+    border-radius: $lil-radius;
+  }
+}

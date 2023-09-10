@@ -1,0 +1,14 @@
+@import "../variables";
+@import "../mixins";
+@import "../placeholders";
+
+.gallery {
+  width: 62.5vw;
+  background-color: $color-white;
+  border-radius: $med-radius;
+  padding: 50px;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

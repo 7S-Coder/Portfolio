@@ -1,10 +1,18 @@
 @import "../variables";
 
-.page_link {
-  color: $color-black;
-  text-decoration: none;
-  &:hover {
-    color: $color-link;
+.card-list {
+  padding-top: 3vh;
+  h1 {
+    font-size: 4rem;
     font-weight: bold;
+  }
+
+  .page_link {
+    color: $color-black;
+    text-decoration: none;
+    &:hover {
+      color: $color-link;
+      font-weight: bold;
+    }
   }
 }
