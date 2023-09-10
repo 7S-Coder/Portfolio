@@ -5,8 +5,8 @@ const Home = () => {
     <div className="container">
       <section>
         <h1>
-          Bienvenue <br />
-          sur le portfolio de <span>SEPT</span>
+          Bienvenue sur <br />
+          mon <span>PORTFOLIO </span>
         </h1>
         <p>Développeur web frontend passioné par javascript</p>
       </section>
