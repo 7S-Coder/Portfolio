@@ -5,10 +5,12 @@ import "../styles/components/Header.scss";
 const Header = () => {
   return (
     <header>
-      <div className="logo">
-        <p>SEPT</p>
-      </div>
       <nav>
+        <div className="logo">
+          <NavLink to="/">
+            <p>Dylan EGLANTINE</p>
+          </NavLink>
+        </div>
         <ul>
           <NavLink to="/">
             <li>Accueil</li>
