@@ -2,16 +2,13 @@
 @import "../mixins";
 @import "../placeholders";
 
-.works {
-  width: 300px;
-  height: 300px;
-}
-
 a {
   text-decoration: none;
 }
 
 .works {
+  width: 300px;
+  height: 300px;
   border-radius: $lil-radius;
   transition: transform 1000ms;
   color: $color-black;

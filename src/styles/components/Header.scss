@@ -31,6 +31,7 @@ header {
     width: $max-width;
     @extend %centered;
     justify-content: space-between;
+    padding: 0 1vh;
 
     ul {
       display: flex;
