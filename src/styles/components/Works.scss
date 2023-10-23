@@ -3,8 +3,12 @@
 @import "../placeholders";
 
 .works {
-  width: 20.833333333333332vw;
-  height: 41.53686396677051vh;
+  width: 300px;
+  height: 300px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .works {
@@ -20,12 +24,18 @@
   &:hover {
     border: 2px solid $color-link;
     box-shadow: 1px 1px 5px 2px $color-link;
+    transform: scale(1.1);
   }
 
   .worksPic {
     position: absolute;
-    width: 20vw;
-    height: 41vh;
+    width: 299px;
+    height: 299px;
+    object-fit: cover;
+    transition: transform 300ms;
+    &:hover {
+      transform: scale(1.02);
+    }
   }
 
   h2 {

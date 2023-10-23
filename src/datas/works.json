@@ -1,5 +1,6 @@
 [
   {
+    "_id": 0,
     "cover": "booki.png",
     "title": "Booki",
     "github": {
@@ -8,5 +9,74 @@
     },
     "tools": ["html5", "CSS3", "git"],
     "skills": ["Intégration web", "CSS", "flexbox", "Figma"]
+  },
+  {
+    "_id": 1,
+    "cover": "portfolio-de-sophie-bluel.webp",
+    "title": "Portfolio de Sophie Bluel",
+    "github": {
+      "title": "repo Sophie Bluel",
+      "link": "https://github.com/7S-Coder/P3-Sophie-Bluel-portfolio.git"
+    },
+    "tools": ["html5", "CSS3", "git", "Javascript"],
+    "skills": ["Intégration web", "CSS", "flexbox", "Figma"]
+  },
+  {
+    "_id": 2,
+    "cover": "portfolio-de-nina-carducci.webp",
+    "title": "Portfolio de Nina Carducci",
+    "github": {
+      "title": "repo Sophie Bluel",
+      "link": "https://github.com/7S-Coder/P3-Sophie-Bluel-portfolio.git"
+    },
+    "tools": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Git",
+      "Bootstrap",
+      "jquery",
+      "Schema.org",
+      "Wave"
+    ],
+    "skills": ["SEO", "Corrections du code", "Figma", "Audit"]
+  },
+  {
+    "_id": 3,
+    "cover": "kasa.webp",
+    "title": "Kasa",
+    "github": {
+      "title": "repo Kasa",
+      "link": "https://github.com/7S-Coder/Kasa.git"
+    },
+    "tools": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Git",
+      "React",
+      "React-router-dom",
+      "vite"
+    ],
+    "skills": ["React", "Usestate", "Figma"]
+  },
+  {
+    "_id": 3,
+    "cover": "kasa.webp",
+    "title": "Kasa",
+    "github": {
+      "title": "repo Kasa",
+      "link": "https://github.com/7S-Coder/Kasa.git"
+    },
+    "tools": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Git",
+      "React",
+      "React-router-dom",
+      "vite"
+    ],
+    "skills": ["React", "Usestate", "Figma"]
   }
 ]
